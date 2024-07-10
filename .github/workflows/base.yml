@@ -32,7 +32,7 @@ jobs:
 
     - name: Install dependencies (Linux)
       if: runner.os == 'Linux'
-      run: sudo apt-get update && sudo apt-get install -y libsasl2-dev liblz4-dev libzstd-dev
+      run: sudo apt-get update && sudo apt-get install -y libsasl2-dev liblz4-dev libzstd-dev libcurl3-dev
 
     - name: Install dependencies (macOS)
       if: runner.os == 'macOS'
