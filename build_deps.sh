@@ -9,9 +9,9 @@ CPUS=`getconf _NPROCESSORS_ONLN 2>/dev/null || sysctl -n hw.ncpu`
 # https://github.com/confluentinc/librdkafka.git
 
 LIBRDKAFKA_DESTINATION=librdkafka
-LIBRDKAFKA_REPO=https://github.com/confluentinc/librdkafka.git
-LIBRDKAFKA_BRANCH=master
-LIBRDKAFKA_REV=9b72ca3aa6c49f8f57eea02f70aadb1453d3ba1f
+LIBRDKAFKA_REPO=https://github.com/ramondelemos/librdkafka.git
+LIBRDKAFKA_BRANCH=main
+LIBRDKAFKA_REV=09e2f667d70be6ea104f21a3ae4c4d97e969a85a
 LIBRDKAFKA_SUCCESS=src/librdkafka.a
 
 # https://github.com/cameron314/concurrentqueue.git
